@@ -8,18 +8,18 @@ import ContactForm from './Footer';
 
 
 function App() {
-  const cursor = document.querySelector(".cursor");
+  // const cursor = document.querySelector(".cursor");
 
-  document.addEventListener("mousemove", e => {
-    cursor.style.cssText = `left: ${e.clientX}px; top: ${e.clientY}px;`
-  })
+  // document.addEventListener("mousemove", e => {
+  //   cursor.style.cssText = `left: ${e.clientX}px; top: ${e.clientY}px;`
+  // })
   return (
     <div className="app">
       <Stars />
       <Header />
       <Planet />
       <ContactForm />
-      <div className='cursor'></div>
+      {/* <div className='cursor'></div> */}
     </div>
   );
 }
