@@ -1,23 +1,21 @@
-import logo from './logo.svg';
 import './App.css';
+import Header from './Header';
+import { cursorMove } from './ufo-cursor';
+import './ufo-cursor/ufocursor.css'
+import Stars from './Stars';
+import Planet from './Planet'
+import ContactForm from './Footer';
+
 
 function App() {
+  cursorMove()
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="app">
+      <Stars />
+      <Header />
+      <Planet />
+      <ContactForm />
+      <div className='cursor'></div>
     </div>
   );
 }

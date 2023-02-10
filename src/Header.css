@@ -1,0 +1,22 @@
+.header {
+  height: 2em;
+  min-width: fit-content;
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%, -1000%);
+}
+
+.welcome {
+  font-size: 60px;
+  color: azure;
+  justify-content: center;
+  display: flex;
+}
+
+.instruction {
+  font-size: 30px;
+  color: azure;
+  justify-content: center;
+  display: flex;
+}

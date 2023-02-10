@@ -1,0 +1,17 @@
+.cursor {
+    background: url(ufo-cursor.png);
+    height: 50px;
+    width: 50px;
+    position: fixed;
+    z-index: 999;
+    top: 0;
+    left: 0;
+    transform: translate(-50%, -50%);
+    pointer-events: none;
+    transition: 1s ease-in-out;
+}
+
+.beam:hover ~ .cursor {
+    background: url(ufo-hover.png);
+    transform: translate(-50%, -100%);
+}

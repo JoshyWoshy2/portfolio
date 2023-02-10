@@ -1,0 +1,23 @@
+{
+  "name": "ufo-cursor",
+  "version": "1.0.0",
+  "description": "A little UFO that follows your cursor around the page",
+  "main": "ufocursor.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jseinarsson/ufo-cursor.git"
+  },
+  "keywords": [
+    "ufo",
+    "cursor"
+  ],
+  "author": "J-XI",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jseinarsson/ufo-cursor/issues"
+  },
+  "homepage": "https://github.com/jseinarsson/ufo-cursor#readme"
+}

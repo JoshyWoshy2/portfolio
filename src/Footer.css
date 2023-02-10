@@ -1,0 +1,12 @@
+.lowbar {
+  position: fixed;
+  bottom: 0;
+  width: auto;
+  height: fit-content;
+}
+
+.makecontact {
+  font-size: 28px;
+  background-color: transparent;
+  color: azure;
+}

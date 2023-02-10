@@ -1,0 +1,127 @@
+.planet {
+  background: transparent;
+  height: 32em;
+  width: 32em;
+  /* border: 1px solid white; */
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+}
+.moon {
+  background: radial-gradient(circle at 3px 50px, azure, #045547);
+  height: 8em;
+  width: 8em;
+  border-radius: 50%;
+  position: absolute;
+  margin: auto;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  box-shadow: 0 0 0 0.2em #bde7e708, 0 0 0 0.2em #bde7e708,
+    0 0 0 0.3em #bde7e708, 0 0 0 0.4em #bde7e708, 0 0 0 0.5em #bde7e708,
+    0 0 0 0.6em #bde7e708, 0 0 0 0.7em #bde7e708, 0 0 0 0.8em #bde7e708,
+    0 0 0 0.9em #bde7e708, 0 0 0 1em #bde7e708, 0 0 0 1.1em #bde7e708,
+    0 0 0 1.2em #bde7e708, 0 0 0 1.3em #bde7e708, 0 0 0 1.4em #bde7e708,
+    0 0 0 1.5em #bde7e708, 0 0 0 1.6em #bde7e708, 0 0 0 1.7em #bde7e708,
+    0 0 0 1.8em #bde7e708, 0 0 0 1.9em #bde7e708, 0 0 0 2em #bde7e708,
+    0 0 0 2.1em #bde7e708, 0 0 0 2.2em #bde7e708, 0 0 0 2.3em #bde7e708,
+    0 0 0 2.4em #bde7e708, 0 0 0 2.5em #bde7e708, 0 0 0 2.6em #bde7e708,
+    0 0 0 2.7em #bde7e708, 0 0 0 2.8em #bde7e708, 0 0 0 2.9em #bde7e708,
+    0 0 0 3em #bde7e708, 0 0 0 3.1em #bde7e708, 0 0 0 3.2em #bde7e708,
+    0 0 0 3.3em #bde7e708, 0 0 0 3.4em #bde7e708, 0 0 0 3.5em #bde7e708,
+    0 0 0 3.6em #bde7e708, 0 0 0 3.7em #bde7e708, 0 0 0 3.8em #bde7e708,
+    0 0 0 3.9em #bde7e708, 0 0 0 4em #bde7e708;
+}
+
+.moon:after {
+  position: absolute;
+  content: "";
+  background-color: #4a9b8d;
+  height: 0.9em;
+  width: 0.9em;
+  border-radius: 50%;
+  top: 3.75em;
+  left: 1.2em;
+  box-shadow: 0.9em -2.1em 0 0.2em #4a9b8d, 1.5em -0.3em 0 -0.06em #4a9b8d;
+}
+
+.orbit1 {
+  height: 12em;
+  width: 12em;
+  font-size: 22px;
+  /* border: 1px solid white; */
+  border-radius: 50%;
+  position: absolute;
+  left: -2.3em;
+  bottom: -2.3em;
+  animation: spin 75s infinite linear;
+}
+
+.orbit2 {
+  font-weight: bold;
+  font-size: 22px;
+  height: 12em;
+  width: 12em;
+  /* border: 1px solid white; */
+  border-radius: 50%;
+  position: absolute;
+  left: -2.3em;
+  bottom: -2.3em;
+  animation: spin 50s infinite linear;
+}
+
+.orbit3 {
+  font-weight: bold;
+  font-size: 22px;
+  height: 12em;
+  width: 12em;
+  /* border: 1px solid white; */
+  border-radius: 50%;
+  position: absolute;
+  left: -2.3em;
+  bottom: -2.3em;
+  animation: spin 40s infinite linear;
+}
+
+@keyframes spin {
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.link {
+  position: absolute;
+  font-size: 3.5;
+  top: 0.25em;
+  left: 0.25em;
+  color: azure;
+}
+
+@media screen and (min-width: 700px) {
+  .moon {
+    font-size: 20px;
+  }
+}
+
+.gitlogo {
+  height: 42px;
+  width: 42px;
+  background-color: azure;
+  border-radius: 50%;
+}
+
+.linked {
+  height: 42px;
+  width: 42px;
+  background-color: azure;
+  border-radius: 50%;
+}
+
+.resume {
+  height: 42px;
+  width: 42px;
+  background-color: azure;
+  border-radius: 50%;
+}
