@@ -1,6 +1,6 @@
 import './App.css';
 import Header from './Header';
-import { cursorMove } from './ufo-cursor';
+// import { cursorMove } from './ufo-cursor/ufocursor.js';
 import './ufo-cursor/ufocursor.css'
 import Stars from './Stars';
 import Planet from './Planet'
@@ -8,7 +8,11 @@ import ContactForm from './Footer';
 
 
 function App() {
-  cursorMove()
+  const cursor = document.querySelector(".cursor");
+
+  document.addEventListener("mousemove", e => {
+    cursor.style.cssText = `left: ${e.clientX}px; top: ${e.clientY}px;`
+  })
   return (
     <div className="app">
       <Stars />

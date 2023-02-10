@@ -1,14 +1,13 @@
 .header {
   height: 2em;
-  min-width: fit-content;
-  top: 50%;
-  left: 50%;
-  position: absolute;
-  transform: translate(-50%, -1000%);
+  max-width: fit-content;
+  top: 30px;
+  left: 30%;
+  position: fixed;
 }
 
 .welcome {
-  font-size: 60px;
+  font-size: 50px;
   color: azure;
   justify-content: center;
   display: flex;
